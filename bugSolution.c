@@ -1,0 +1,1 @@
+int main() { int x = 10; int *ptr = &x; *ptr = 20; printf("%d\n", x); // Output: 20.  The value of x has been correctly modified via the pointer. return 0; }
